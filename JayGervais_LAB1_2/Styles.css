@@ -8,17 +8,20 @@
 
 .form-container {
     padding: 25px 25px 25px 25px;
-    box-shadow: 2px 3px 10px #c3c3c3;
+    box-shadow: 2px 3px 10px #565656;
     background-color: #fbfbfb;
     border-radius: 25px;
     margin: -65px -54px 0px -50px;
+    margin-top: -500px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
 }
 
 h1.headertxt {
     text-align: center;
     font-weight: bold;
-    color: #fff;
-    text-shadow: 2px 3px 5px #000;
+    color: #2c2c2c;
 }
 
 .page-header.jumbotron {
@@ -28,6 +31,9 @@ h1.headertxt {
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: inset 1px 7px 10px rgba(0,0,0,0.5);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0 100%);
+    height: 550px;
 }
 
 img.thermpic {
@@ -35,6 +41,6 @@ img.thermpic {
     float: left;
 }
 
-.tempborder {
-    margin-top: -70px;
-} 
+/*.tempborder {
+    margin-top: -120px;
+}*/ 

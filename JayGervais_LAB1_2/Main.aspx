@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="page-header jumbotron">
-    <h1 class="headertxt">Temperature Converter</h1>
+    
   </div>
     <div class="container">
         <form id="form1" runat="server">
@@ -20,14 +20,15 @@
         <div class="row">
   		    <div class ="col-11">
                <div class="container">
-               <div class="form-container">            
+               <div class="form-container">     
+                   <h1 class="headertxt pb-3">Temperature Converter</h1>
                    <div class="row">
-                    <div class ="col-lg-4">
+                    <div class ="col-lg-6">
                     <asp:Label ID="lblFrom" runat="server" Text="From"></asp:Label>
                     <asp:DropDownList class="form-control" ID="ddlTempSystemsFrom" runat="server" AppendDataBoundItems="True" AutoPostBack="True">
                         </asp:DropDownList>
                     </div>
-                    <div class ="col-lg-4">
+                    <div class ="col-lg-6">
                     <asp:Label ID="lblTo" runat="server" Text="To"></asp:Label>
                     <asp:DropDownList class="form-control" ID="ddlTempSystemsTo" runat="server" AppendDataBoundItems="True">
                         </asp:DropDownList>
@@ -50,11 +51,6 @@
                </div>
             
           </div>
-            <div class ="col-1">
-                <div class="tempborder">
-                    <img class="thermpic" src="images/thermometer-1134182_1280.png" />
-                </div>   
-            </div>
         </div>
       </div>
 
