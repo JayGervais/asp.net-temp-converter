@@ -1,0 +1,40 @@
+﻿html, body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 750px !important;
+}
+
+.form-container {
+    padding: 25px 25px 25px 25px;
+    box-shadow: 2px 3px 10px #c3c3c3;
+    background-color: #fbfbfb;
+    border-radius: 25px;
+    margin: -65px -54px 0px -50px;
+}
+
+h1.headertxt {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 3px 5px #000;
+}
+
+.page-header.jumbotron {
+    background-image: url("../images/thermometer-4294021_1280.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 1px 7px 10px rgba(0,0,0,0.5);
+}
+
+img.thermpic {
+    max-height: 325px;
+    float: left;
+}
+
+.tempborder {
+    margin-top: -70px;
+} 
